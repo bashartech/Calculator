@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(49, 63, 71);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.calculator{
+    background: rgb(60, 77, 83) ;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1) ;
+        padding: 20px;
+    width: 320px;
+    height: 450px;
+}
+.inputBox{
+    width: 300px;
+    height: 40px;
+    text-align: right;
+    background: transparent;
+    color: white;
+    border: none;
+    margin-bottom: 20px;
+    font-size: 30px;
+
+}
+.inputBox::placeholder{
+    font-size: 30px;
+    color: #ffff;
+}
+button{
+    
+    width: 60px;
+    height: 60px;
+    margin: 6px;
+    padding: 15px;
+    background: transparent;
+    border-radius: 50px;
+    font-size: 18px;
+    border: none;
+    color: white;
+box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1) ;
+cursor: pointer;
+}
+.eqBtn{
+    background-color: rgb(16, 72, 65);
+}
+.operators{
+    color: rgb(2, 245, 188);
+}
